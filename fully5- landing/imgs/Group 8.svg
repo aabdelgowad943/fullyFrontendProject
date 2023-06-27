@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142.073" height="172.217" viewBox="0 0 142.073 172.217">
+  <g id="Group_8" data-name="Group 8" transform="translate(-541.786 -18.609)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="123.006" height="96.897" rx="16.183" transform="translate(551.319 69.099)" fill="#5ebaff"/>
+    <g id="Group_7" data-name="Group 7">
+      <g id="Group_5" data-name="Group 5">
+        <path id="Path_3" data-name="Path 3" d="M552.833,116.724c3.434,1.179,5.043,3.431,5.043,8.795v26.494c0,5.471,2.573,8.582,8.151,8.582h2.9v6.329h-3.969c-9.653,0-14.694-4.72-14.694-14.268V125.411c0-3.861-1.717-5.471-4.828-5.471h-3.646V113.5h3.646c3.111,0,4.828-1.609,4.828-5.471V80.789c0-9.547,5.041-14.267,14.694-14.267h3.969v6.329h-2.9c-5.578,0-8.151,3.111-8.151,8.582v26.494C557.876,113.29,556.267,115.543,552.833,116.724Z" fill="#24242e"/>
+      </g>
+      <g id="Group_6" data-name="Group 6">
+        <path id="Path_4" data-name="Path 4" d="M683.859,113.5v6.435h-3.647c-3.005,0-4.827,1.61-4.827,5.471v27.245c0,9.548-5.043,14.268-14.589,14.268H656.72V160.6h2.9c5.577,0,8.152-3.111,8.152-8.582V125.519c0-5.364,1.609-7.616,5.041-8.795-3.432-1.181-5.041-3.434-5.041-8.8V81.433c0-5.471-2.575-8.582-8.152-8.582h-2.9V66.522H660.8c9.546,0,14.589,4.72,14.589,14.267v27.245c0,3.862,1.822,5.471,4.827,5.471Z" fill="#24242e"/>
+      </g>
+    </g>
+    <text id="_..." data-name="..." transform="translate(612.822 122.609)" fill="#fff" font-size="107.276" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-36.528" y="0">...</tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="56.057" transform="translate(584.794 166.924)" fill="none" stroke="#24242e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5.223"/>
+    <line id="Line_2" data-name="Line 2" y2="21.291" transform="translate(612.822 166.924)" fill="none" stroke="#24242e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5.223"/>
+    <line id="Line_3" data-name="Line 3" x2="107.168" transform="translate(559.238 188.215)" fill="none" stroke="#24242e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5.223"/>
+  </g>
+</svg>

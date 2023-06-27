@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing</title>
+    <link rel="stylesheet" href="css-file/font-awesome.min.css">
+    <link rel="stylesheet" href="css-file/normalize.css">
+    <link rel="stylesheet" href="css-file/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<style>
+    .scroll-up {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: teal;
+        color: white;
+        border: none;
+        width: 30px;
+        height: 30px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 4px;
+        cursor: pointer;
+        z-index: 2000;
+        display: none;
+        padding: 2px;
+    }
+</style>
+<body>
+    <button class="scroll-up">up</button>
+    <!-- start settings box -->
+    <div class="setting-box">
+        <div class="father-fa">
+            <i class="fa fa-gear"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="color-list">
+                    <li class="active" data-color="#9c27b0"></li>
+                    <li data-color="teal"></li>
+                    <li data-color="#b7bee6"></li>
+                    <li data-color="#00bcd4"></li>
+                    <li data-color="#f44336"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>random background</h4>
+                <div class="random-background">
+                    <span data-back="yes" class="yes active">Yes</span>
+                    <span data-back="no" class="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display = "show" >Yes</span>
+                    <span  class="no" data-display = "hide" >No</span>
+                </div>
+            </div>
+
+        </div>
+        <button class="reset-all-settings">reset all setings</button>
+    </div>
+    <!-- ending settings box -->
+
+
+
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+
+            <div class="header">
+                <div class="logo">Guest Store</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <!-- class="active" -->
+                        <li> <a href="#" data-section=".about">About Us</a></li>
+                        <li> <a href="#"data-section=".skill-section">Our skills</a></li>
+                        <li> <a href="#"data-section=".gallrey">Our Gallrey</a></li>
+                        <li> <a href="#"data-section=".timeline">Timeline</a></li>
+                        <li> <a href="#"data-section=".features">features</a></li>
+                        <li> <a href="#"data-section=".testmonials">testmonials</a></li>
+                        <li> <a href="#"data-section=".contact">contact</a></li>
+                    </ul>
+                    <button class="toogle-menue">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>We Are <span>creative</span> agency</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, facere?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, facere?
+
+            </p>
+        </div>
+    </div>
+        <!-- end landing page -->
+
+
+        <!-- start about us -->
+        <div class="about">
+
+            <div class="container">
+                <div class="about-us">
+                    <div class="info-box">
+                        <h2>about us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Iste consequatur reiciendis harum veniam ut at? Est culpa 
+                             accusantium animi debitis! Ut soluta voluptate perferendis
+                              esse culpa porro officiis ipsam qui.</p>
+                    </div>
+                    <div class="image-box">
+                        <img src="./imgs/OBJECTS.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end about us -->
+
+
+        <!-- start skills -->
+        <div class="skill-section">
+            <div class="container">
+                <h2>our Skills</h2>
+                <div class="skill-box">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-progress">
+                        <span data-progress="60%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">JAVASCRIPT</div>
+                    <div class="skill-progress">
+                        <span data-progress="30%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Paython</div>
+                    <div class="skill-progress">
+                        <span data-progress="60%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">PHP</div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">MySQL</div>
+                    <div class="skill-progress">
+                        <span data-progress="50%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end skills -->
+
+        <!-- start gallrey -->
+        <div class="gallrey">
+            <div class="container">
+                <h2>Our Gallrey</h2>
+                <div class="imgs-box">
+                    <img src="./some pic/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg" alt="image one">
+                    <img src="./some pic/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg" alt="image two">
+                    <img src="./some pic/3WfvjNWr5k1Zzww81b3GWc8KQhb.jpg" alt="image three">
+                    <img src="./some pic/5VJSIAhSn4qUsg5nOj4MhQhF5wQ.jpg" alt="image four">
+                    <img src="./some pic/d5NXSklXo0qyIYkgV94XAgMIckC.jpg" alt="image five">
+                    <img src="./some pic/jxdKa1467pktAILLbfw6kZyQlbW.jpg" alt="image six">
+                    <img src="./some pic/k0ThmZQl5nHe4JefC2bXjqtgYp0.jpg" alt="image seven">
+                    <img src="./some pic/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg" alt="image eight">
+                    <img src="./some pic/kWhXubAiIcHW0xn5GThflqaKZqh.jpg" alt="image nine">
+                    <img src="./some pic/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg" alt="image ten">
+                </div>
+            </div>
+        </div>
+        <!-- end gallrey -->
+
+        <!--start timeline -->
+        <div class="timeline">
+            <div class="container">
+                <div class="content">
+                    <div class="year">2018</div>
+                    <div class="left">
+                        <div class="text">
+                            <h3>Time Line</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sunt? sunt? Lorem ipsum dolor sit a
+                                met, consectetur adipisicing elit. Mollitia, sunt</p>
+                        </div>
+                    </div>
+                    <div class="clearfox"></div>
+                    <div class="right">
+                        <div class="text">
+                            <h3>Time Line</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sunt? sunt? Lorem ipsum dolor sit a
+                                met, consectetur adipisicing elit. Mollitia, sunt?</p>
+                        </div>
+                    </div>
+                    <div class="clearfox"></div>
+                    <div class="year">2020</div>
+                    <div class="left">
+                        <div class="text">
+                            <h3>Time Line</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sunt? sunt? Lorem ipsum dolor sit a
+                                met, consectetur adipisicing elit. Mollitia, sunt</p>
+                        </div>
+                    </div>
+                    <div class="clearfox"></div>
+                    <div class="left">
+                        <div class="text">
+                            <h3>Time Line</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sunt? sunt? Lorem ipsum dolor sit a
+                                met, consectetur adipisicing elit. Mollitia, sunt</p>
+                        </div>
+                    </div>
+                    <div class="clearfox"></div>
+                    <div class="clearfox"></div>
+                    <div class="right">
+                        <div class="text">
+                            <h3>Time Line</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sunt? sunt? Lorem ipsum dolor sit a
+                                met, consectetur adipisicing elit. Mollitia, sunt?</p>
+                        </div>
+                    </div>
+                    <div class="clearfox"></div>
+                    <div class="right">
+                        <div class="text">
+                            <h3>Time Line</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sunt? sunt? Lorem ipsum dolor sit a
+                                met, consectetur adipisicing elit. Mollitia, sunt?</p>
+                        </div>
+                    </div>
+                
+
+                </div>
+              
+            </div>
+        </div>
+        <!--end timeline -->
+
+        <!-- start features -->
+        <div class="features">
+            <div class="container">
+                <h2>features</h2>
+                <div class="feat-box">
+                    <img src="./imgs/Group 8.svg" alt="">
+                    <h4>Development</h4>
+                    <p>we should bould vuild our home and gettong back into bab el</p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/Group 8.svg" alt="">
+                    <h4>Cloua and servers</h4>
+                    <p>we should bould vuild our home and gettong back into bab el</p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/Group 8.svg" alt="">
+                    <h4>hosting</h4>
+                    <p>we should bould vuild our home and gettong back into bab el</p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/Group 8.svg" alt="">
+                    <h4>Marketing</h4>
+                    <p>we should bould vuild our home and gettong back into bab el</p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/Group 8.svg" alt="">
+                    <h4>Seo</h4>
+                    <p>we should bould vuild our home and gettong back into bab el</p>
+                </div>
+                <div class="feat-box">
+                    <img src="./imgs/Group 8.svg" alt="">
+                    <h4>Database</h4>
+                    <p>we should bould vuild our home and gettong back into bab el</p>
+                </div>
+                <div class="clearfox"></div>
+            </div>
+        </div>
+        <!-- end features -->
+
+        <!-- start testmonials -->
+        <div class="testmonials">
+            <div class="container">
+                <h2>Testmonials</h2>
+                <div class="prsonal-information">
+                    <div class="card">
+                        <p>its perfect to see your work and i would luke to meet you again</p>
+                        <div class="profile">
+                            <img src="./imgs/IMG_0268.JPG"  alt="">
+                            <div class="text">
+
+                                <h4>Ahmed Abd Elgowad</h4>
+                                <p>CEO at company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p>its perfect to see your work and i would luke to meet you again</p>
+                        <div class="profile">
+                            <img src="./imgs/IMG_0268.JPG" alt="">
+                            <div class="text">
+                                <h4>Guest</h4>
+                                <p>CEO at company</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p>its perfect to see your work and i would luke to meet you again</p>
+                        <div class="profile">
+                            <img src="./imgs/IMG_0268.JPG" alt="">
+                            <div class="text">
+
+                                <h4>Ahmed Mamdouh</h4>
+                                <p>CEO at company</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end testmonials -->
+
+        <!-- start nav-bullets -->
+        <div class="nav-bullets">
+            <div class="bullet" data-section=".landing-page">
+                <div class="tooltip" >landing page</div>
+            </div>
+            <div class="bullet" data-section=".about">
+                <div class="tooltip" >About Us</div>
+            </div>
+            <div class="bullet" data-section=".skill-section">
+                <div class="tooltip" >Our skills</div>
+            </div>
+            <div class="bullet" data-section=".gallrey">
+                <div class="tooltip">Our Gallrey</div>
+            </div>
+            <div class="bullet" data-section=".timeline">
+                <div class="tooltip" >timeline</div>
+            </div>
+            <div class="bullet" data-section=".features">
+                <div class="tooltip" >features</div>
+            </div>
+            <div class="bullet" data-section=".testmonials">
+                <div class="tooltip" >testmonials</div>
+            </div>
+            <div class="bullet" data-section=".contact">
+                <div class="tooltip" >contact</div>
+            </div>
+        </div>
+        <!-- end nav-bullets -->
+
+        <!-- start contact us -->
+        <div class="contact">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <div class="left-form">
+                        <input type="text" placeholder="your name" name="username">
+                        <input type="text" placeholder="your number" name="your number">
+                        <input type="email" placeholder="your email" name="email">
+                        <input type="text" placeholder="your subject" name="subject">
+                    </div>
+                    <div class="right-form">
+                        <textarea name="your message" placeholder="your message"></textarea>
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- end contact us -->
+
+        <!-- start footer -->
+        <div class="footer">
+            Created By Ahmed Abd Elgowad
+        </div>
+        <!-- End footer -->
+    <script src="js-file/main.js"></script>
+</body>
+</html>
